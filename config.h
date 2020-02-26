@@ -75,7 +75,7 @@ static const struct arg args[] = {
 	{ ram_used,	"| %s ",	NULL },
 	{ cpu_perc, "%s%% ",	NULL },
 	{ temp,	"%s℃ ",	"/sys/class/thermal/thermal_zone0/temp" },
-	{ datetime, "| %s |",           "%b-%d %a %T" },
+	{ datetime, "| %s |",           "%a %d-%b %T" },
 	{ keyboard_indicators,	" %s ",	"?C" },
 	{ keyboard_indicators,	"%s",	"?n" },
 	{ keymap,	" %s",		NULL },
